@@ -21,7 +21,7 @@ def predictionModel(input_data, model):
     elif (prediction[0] == 1):
         return "Ferromagnetic"
     else:
-        return "Paramagnetism"
+        return "Paramagnetic"
 
 
 def main():
